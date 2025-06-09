@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #121212;
+    padding: 18px 18px 90px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-logo i {
+    font-size: 24px;
+}
+
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-library i,
+.nav-library p {
+    color: #b7b3b6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-playlist,
+.nav-podcast {
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.nav-playlist button,
+.nav-podcast button {
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.nav-playlist p,
+.nav-podcast p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.nav-footer {
+    margin-top: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.nav-lang-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
