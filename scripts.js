@@ -1,20 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
     const artistsData = [
-        { name: "Artista 1", image: "./assets/artista_1.png" },
-        { name: "Artista 2", image: "./assets/artista_2.png" },
-        { name: "Artista 3", image: "./assets/artista_3.png" },
-        { name: "Artista 4", image: "./assets/artista_4.png" },
-        { name: "Artista 5", image: "./assets/artista_5.png" },
-        { name: "Artista 6", image: "./assets/artista_6.png" },
+        { name: "Slow J", image: "./assets/artista_1.png" },
+        { name: "Van Zee", image: "./assets/artista_2.png" },
+        { name: "Plutonio", image: "./assets/artista_3.png" },
+        { name: "Piruka", image: "./assets/artista_4.png" },
+        { name: "Mishlawi", image: "./assets/artista_5.png" },
+        { name: "Julinho Ksd", image: "./assets/artista_6.png" },
     ];
 
     const albumsData = [
-        { name: "Album 1", artist: "test 1", image: "./assets/album_1.png" },
-        { name: "Album 2", artist: "test 2", image: "./assets/album_2.png" },
-        { name: "Album 3", artist: "test 3", image: "./assets/album_3.png" },
-        { name: "Album 4", artist: "test 4", image: "./assets/album_4.png" },
-        { name: "Album 5", artist: "test 5", image: "./assets/album_5.png" },
-        { name: "Album 6", artist: "test 6", image: "./assets/album_6.png" },
+        { name: "Afro Fado", artist: "Slow J", image: "./assets/album_1.png" },
+        {
+            name: "You Are Forgiven",
+            artist: "Slow J",
+            image: "./assets/album_2.png",
+        },
+        {
+            name: "The Art of Slowing Down",
+            artist: "Slow J",
+            image: "./assets/album_3.png",
+        },
+        { name: "do.mar", artist: "Van Zee", image: "./assets/album_4.png" },
+        { name: "O Próprio", artist: "Dillaz", image: "./assets/album_5.png" },
+        { name: "AClara", artist: "Piruka", image: "./assets/album_6.png" },
     ];
 
     const artistGrid = document.querySelector(".artists-grid");
